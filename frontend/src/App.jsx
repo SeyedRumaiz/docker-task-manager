@@ -5,7 +5,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-  const API = "http://localhost/api";
+  const API = "/api";
 
   const fetchTasks = async () => {
     const res = await axios.get(`${API}/tasks`);

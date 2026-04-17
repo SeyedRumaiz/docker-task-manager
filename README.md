@@ -1,13 +1,53 @@
-# Dockerized Task Manager 🐳
+# 🐳 Docker Task Manager
 
-A full-stack containerized application using:
+A simple **Task Manager application** built with Docker to demonstrate containerized development and deployment.  
+This project focuses on setting up a multi-service environment using Docker and Docker Compose.
 
-- FastAPI (Python backend)
-- PostgreSQL database
-- Nginx reverse proxy
-- Docker & Docker Compose
+---
 
-## Run the project
+## 📌 Features
+
+- Create and manage tasks
+- Simple backend service (Node.js / Python / or your chosen stack)
+- Containerized architecture using Docker
+- Easy setup using Docker Compose
+- Isolated development environment
+
+---
+
+## 🏗️ Tech Stack
+
+- Backend: Node.js (or Python if applicable)
+- Containerization: Docker
+- Orchestration: Docker Compose
+- Version Control: Git & GitHub
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
+git clone git@github.com:SeyedRumaiz/docker-task-manager.git
+cd docker-task-manager
+```
+
+
+### 2. Build and run containers
+```bash
 docker-compose up --build
+```
+
+### 3. Stop containers
+```bash
+docker-compose down
+```
+
+
+### Access the Application
+
+Once running, open:
+```bash
+http://localhost:5173
+```
