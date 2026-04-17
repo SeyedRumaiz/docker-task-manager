@@ -8,7 +8,7 @@ This project focuses on setting up a multi-service environment using Docker and 
 ## 📌 Features
 
 - Create and manage tasks
-- Simple backend service (Node.js / Python / or your chosen stack)
+- Simple backend service
 - Containerized architecture using Docker
 - Easy setup using Docker Compose
 - Isolated development environment
@@ -17,7 +17,7 @@ This project focuses on setting up a multi-service environment using Docker and 
 
 ## 🏗️ Tech Stack
 
-- Backend: Node.js (or Python if applicable)
+- Backend: Node.js / Python
 - Containerization: Docker
 - Orchestration: Docker Compose
 - Version Control: Git & GitHub
